@@ -19,8 +19,8 @@ function showResult(result: number): void {
 }
 
 (() => {
-    const num1String = prompt("First Number");
-    const num2String = prompt("Second Number");
+    const num1String: string | null = prompt("First Number");
+    const num2String: string | null = prompt("Second Number");
 
       if (num1String === null || num2String === null) {
         console.log("Input canceled. Please enter valid numbers.");
