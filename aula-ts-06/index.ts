@@ -1,4 +1,4 @@
-const game: {
+const game2: {
     id: number,
     platform: {
         id: number,
@@ -18,7 +18,7 @@ const game: {
     launch: "2013-06-14" 
 }
 
-const games: {
+const games2: {
     id: number,
     platform: {
         id: number,
@@ -27,9 +27,9 @@ const games: {
     title: string,
     publisher: string,
     launch?: string | Date
-}[] = [game];
+}[] = [game2];
 
-function play(game: any){
+function play2(game: any){
     // runs the game
     console.log(game);
 }
